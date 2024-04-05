@@ -1,0 +1,445 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-04-04T13:13:58.256Z",
+        "line": 3,
+        "name": "Verify User able to login with correct credentials",
+        "description": "",
+        "id": "autoregister-page-functionality;verify-user-able-to-login-with-correct-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9289000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to login page \"https://ntkhr.noortecktraining.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://ntkhr.noortecktraining.com/\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.steps.LoginStep.user_navigates_to_login_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 221000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username \"ntk-admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ntk-admin\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.steps.LoginStep.user_enters_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters password \"Ntk-orange!admin.123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ntk-orange!admin.123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.steps.LoginStep.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks login button",
+            "match": {
+              "location": "com.steps.LoginStep.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2084000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "System redirects to dashboard page \"Dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.steps.LoginStep.system_redirects_to_dashboard_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-04T13:14:10.063Z",
+        "line": 10,
+        "name": "Verify User able to login with correct credentials FAIL",
+        "description": "",
+        "id": "autoregister-page-functionality;verify-user-able-to-login-with-correct-credentials-fail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5243000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User navigates to login page \"https://ntkhr.noortecktraining.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://ntkhr.noortecktraining.com/\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.steps.LoginStep.user_navigates_to_login_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters username \"ntk-admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ntk-admin\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.steps.LoginStep.user_enters_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters password \"Ntk-orange!admin.123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ntk-orange!admin.123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.steps.LoginStep.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks login button",
+            "match": {
+              "location": "com.steps.LoginStep.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2069000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "System redirects to dashboard page \"Dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.steps.LoginStep.system_redirects_to_dashboard_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "System redirects to dashboard pages \"Failed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Failed\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.steps.LoginStep.system_redirects_to_dashboard_pages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-04T13:14:17.602Z",
+        "line": 18,
+        "name": "Verify User able to login with correct credentials FAIL",
+        "description": "",
+        "id": "autoregister-page-functionality;verify-user-able-to-login-with-correct-credentials-fail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4978000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigates to login page \"https://ntkhr.noortecktraining.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://ntkhr.noortecktraining.com/\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.steps.LoginStep.user_navigates_to_login_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 80000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters username \"ntk-admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ntk-admin\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.steps.LoginStep.user_enters_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters password \"Ntk-orange!admin.123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ntk-orange!admin.123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.steps.LoginStep.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks login button",
+            "match": {
+              "location": "com.steps.LoginStep.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2272000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "System redirects to dashboard page \"Dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.steps.LoginStep.system_redirects_to_dashboard_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "System redirects to dashboard pages \"Failed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Failed\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.steps.LoginStep.system_redirects_to_dashboard_pages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-04T13:14:25.089Z",
+        "line": 26,
+        "name": "Verify User able to login with correct credentials FAIL",
+        "description": "",
+        "id": "autoregister-page-functionality;verify-user-able-to-login-with-correct-credentials-fail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5221000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User navigates to login page \"https://ntkhr.noortecktraining.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://ntkhr.noortecktraining.com/\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.steps.LoginStep.user_navigates_to_login_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters username \"ntk-admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ntk-admin\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.steps.LoginStep.user_enters_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enters password \"Ntk-orange!admin.123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ntk-orange!admin.123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.steps.LoginStep.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 637000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks login button",
+            "match": {
+              "location": "com.steps.LoginStep.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2268000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "System redirects to dashboard page \"Dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.steps.LoginStep.system_redirects_to_dashboard_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "System redirects to dashboard pages \"Failed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Failed\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.steps.LoginStep.system_redirects_to_dashboard_pages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "AutoRegister Page Functionality",
+    "description": "",
+    "id": "autoregister-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/smoke/SmokeTest.feature",
+    "tags": []
+  }
+]
